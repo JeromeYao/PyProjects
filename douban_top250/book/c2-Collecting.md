@@ -59,7 +59,7 @@ def get_html_text(url， headers):
 根据观察可以看出`250`条电影信息存放在`10`个页面内，使用变量`i`计数,在`0～10`个页面内抓取信息。此函数需要使用变量计数，记录抓取电影的个数，此变量设置为`x`，每个循环内的`x`即为当前页面内抓取的信息条数。抓取页面信息使用的是`requests`库的`get`方法，再使用`text`方法得到页面文本内容。  
 
 
-![Screenshot_douban](/assets/Screenshot_douban_source.png)
+![Screenshot_douban](./assets/Screenshot_douban_source.png)
 
 观察网页源码可以看出，所有的信息都在每个`class`属性为`info`的`div`标签里。依此类推定位到各信息所在标签，代码如下：  
 
@@ -133,7 +133,7 @@ if __name__ == '__main__':  # 执行代码
 
 得到的效果如下:  
 
-![douban_top250_text](/assets/Screenshot_douban_top250_csv.png)
+![douban_top250_text](./assets/Screenshot_douban_top250_csv.png)
 
 [完整代码](https://github.com/JeromeYao/PyProjects/blob/master/douban_top250/douban_top250_spyder.py)
 
