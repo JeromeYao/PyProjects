@@ -1,4 +1,4 @@
-# 分析与展示
+# C4 分析与展示
 
 在分析豆瓣榜单排名之前，让我们来考虑一下几个常见的问题：
 
@@ -280,5 +280,11 @@ plt.show()
 
 综合以上几点，从发展的眼光来看，豆瓣电影的评分结果对于大多数的影片是有一定的参考价值的。
 
-[数据处理、分析和展示的完整代码](https://github.com/JeromeYao/PyProjects/blob/master/douban_top250/douban_top250_analysis.py)
+[数据处理、分析和展示的完整代码](../code/douban_top250_analysis.py)
 
+------
+
+
+[上一章： C3 数据处理](c3-Process.md)
+
+[下一章： C5 总结](c5-Conclusion.md)

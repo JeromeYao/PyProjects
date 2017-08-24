@@ -1,4 +1,4 @@
-# 数据收集  
+# C2 数据收集  
 
 我们在抓取信息之前先看一下豆瓣网的[robots协议](https://www.douban.com/robots.txt):
 
@@ -135,5 +135,12 @@ if __name__ == '__main__':  # 执行代码
 
 ![douban_top250_text](./assets/Screenshot_douban_top250_csv.png)
 
-[完整代码](https://github.com/JeromeYao/PyProjects/blob/master/douban_top250/douban_top250_spyder.py)
+[完整代码](../code/douban_top250_spyder.py)
+
+------
+
+[上一章： C1 概要](c1-Target.md)
+
+[下一章： C3 数据处理](c3-Process.md)
+
 
