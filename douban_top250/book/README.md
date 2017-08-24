@@ -1,7 +1,7 @@
 # 浅析豆瓣电影TOP250榜单
 
 ![filmcloud](https://raw.githubusercontent.com/JeromeYao/PyProjects/master/douban_top250/book/assets/filmCloud.png)
-
+![filmcloud](./assets/filmCloud.png)
 > 豆瓣用户每天都在对“看过”的电影进行“很差”到“力荐”的评价，豆瓣根据每部影片看过的人数以及该影片所得的评价等综合数据，通过算法分析产生豆瓣电影250。
 
 豆瓣网创始人兼CEO杨勃在知乎的[豆瓣电影的分数和排序是怎么算出来的？](https://www.zhihu.com/question/19627832)一问中的回答如下：  
@@ -18,3 +18,12 @@
   
 Jerome Yao
 2017.06
+
+## Summary
+
+* [C0 引言](README.md)
+* [C1 概要](c1-Target.md)
+* [C2 数据收集](c2-Collecting.md)
+* [C3 数据处理](c3-Process.md)
+* [C4 分析&展示](c4-Analysis.md)
+* [C5 总结](c5-Conclusion.md)
