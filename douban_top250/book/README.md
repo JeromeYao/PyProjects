@@ -1,6 +1,6 @@
 # 浅析豆瓣电影TOP250榜单
 
-![filmcloud](/assets/filmCloud.png)
+![filmcloud](/assets/filmCloud.pnhttps://raw.githubusercontent.com/JeromeYao/PyProjects/master/douban_top250/book/assets/filmCloud.png)
 
 > 豆瓣用户每天都在对“看过”的电影进行“很差”到“力荐”的评价，豆瓣根据每部影片看过的人数以及该影片所得的评价等综合数据，通过算法分析产生豆瓣电影250。
 
