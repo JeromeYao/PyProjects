@@ -4,7 +4,7 @@
 import requests
 import itchat
 
-KEY = '8edce3ce905a4c1dbb965e6b35c3834d'
+KEY = '4254444524444b6ea0cf411e6e449ee1'
 
 
 def get_response(msg):

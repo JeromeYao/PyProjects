@@ -10,7 +10,6 @@ coding at jun. 2017
 
 import re
 import numpy as np
-import scipy as sp
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
@@ -18,7 +17,6 @@ from PIL import Image
 from collections import Counter
 from wordcloud import WordCloud, ImageColorGenerator
 from sklearn.pipeline import Pipeline
-from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn import linear_model
 
@@ -126,7 +124,7 @@ keys_date, values_date = list(list_date.keys()), list(list_date.values())
 ax2 = plt.subplot()
 ax2.set_title('各年份上榜次数', fontproperties='Droid Sans Fallback')  # 标题，单处修改字体
 ax2.set_xlabel('年份', fontproperties='Droid Sans Fallback')  # x轴标签
-ax2.set_xlim(1930, 2020)
+ax2.set_xlim(1930, 2020)  # 横轴上下限
 ax2.set_ylabel('上榜次数', fontproperties='Droid Sans Fallback')  # y轴标签
 ax2.bar(keys_date, values_date)  # 画柱状图
 plt.savefig('date_demo.png', dpi=300)
